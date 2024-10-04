@@ -11,7 +11,11 @@ import androidx.compose.ui.tooling.preview.Preview
 import fdez.collados.fco.javier.t01p02.R
 
 @Composable
-fun ArticleImage(painter: Painter, contentDescription: String?, modifier: Modifier = Modifier) {
+fun ArticleImage(
+    painter: Painter,
+    contentDescription: String?, modifier:
+    Modifier = Modifier
+) {
 
     Column(
         modifier = modifier
