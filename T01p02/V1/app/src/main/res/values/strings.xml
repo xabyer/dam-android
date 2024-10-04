@@ -6,4 +6,12 @@
     <string name="tasks_completed">All tasks completed</string>
     <string name="nice_work">Nice work!</string>
     <string name="green_v_icon_content_description">Green circle icon with blue V to mark all task as completed.</string>
+    <string name="quadrant_one_title">Text composable</string>
+    <string name="quadrant_one_description">Displays text and follows the recommended Material Design guidelines.</string>
+    <string name="quadrant_two_title">Image composable</string>
+    <string name="quadrant_two_description">Creates a composable that lays out and draws a given Painter class object.</string>
+    <string name="quadrant_three_title">Row composable</string>
+    <string name="quadrant_three_description">A layout composable that places its children in a horizontal sequence.</string>
+    <string name="quadrant_four_title">Column composable</string>
+    <string name="quadrant_four_description">A layout composable that places its children in a vertical sequence.</string>
 </resources>
