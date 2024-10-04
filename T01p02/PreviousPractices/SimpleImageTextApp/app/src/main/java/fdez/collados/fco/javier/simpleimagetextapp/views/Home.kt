@@ -7,7 +7,11 @@ import androidx.compose.ui.tooling.preview.Preview
 import fdez.collados.fco.javier.simpleimagetextapp.R
 
 @Composable
-fun Home(message: String, from: String, modifier: Modifier = Modifier) {
+fun Home(
+    message: String,
+    from: String,
+    @Suppress("UNUSED_PARAMETER") modifier: Modifier = Modifier
+) {
     PartyImage(
         message,
         from
