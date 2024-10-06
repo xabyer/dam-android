@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">T01p02</string>
+    <string name="title">Tutoríal de Jetpack Compose</string>
+    <string name="short_paragraph">Jetpack Compose es un moderno conjunto de herramientas para crear interfaces de usuario nativas de Android. Compose simplifica y acelera el desarrollo de interfaces de usuario en Android con menos código, herramientas potentes y API Kotlin intuitivas.</string>
+    <string name="paragraph_compose_ui">En este tutorial, construirás un componente de interfaz de usuario simple con funciones declarativas. Llamas a las funciones Compose para decir qué elementos quieres y el compilador Compose hace el resto. Compose está construido alrededor de funciones Composables. Estas funciones le permiten definir la interfaz de usuario de su aplicación mediante programación, ya que le permiten describir el aspecto que debe tener y proporcionar dependencias de datos, en lugar de centrarse en el proceso de construcción de la interfaz de usuario, como la inicialización de un elemento y, a continuación, adjuntarlo a un padre. Para crear una función Composable, añada la anotación @Composable al nombre de la función.</string>
+    <string name="tasks_completed">Todas las tareas completadas.</string>
+    <string name="nice_work">¡Buen trabajo!</string>
+    <string name="green_v_icon_content_description">Icono verde en forma de círculo con V azul para marcar todas las tareas como completadas.</string>
+    <string name="quadrant_one_title">Text componible</string>
+    <string name="quadrant_one_description">Muestra texto y sigue las directrices recomendadas de Material Design.</string>
+    <string name="quadrant_two_title">Imagen componible</string>
+    <string name="quadrant_two_description">Crea un componible que traza y dibuja un objeto de la clase Painter dado.</string>
+    <string name="quadrant_three_title">Fila componible</string>
+    <string name="quadrant_three_description">Un diseño componible que coloca a sus hijos en una secuencia horizontal.</string>
+    <string name="quadrant_four_title">Columna componible</string>
+    <string name="quadrant_four_description">Un diseño componible que coloca a sus hijos en una secuencia vertical.</string>
+</resources>
