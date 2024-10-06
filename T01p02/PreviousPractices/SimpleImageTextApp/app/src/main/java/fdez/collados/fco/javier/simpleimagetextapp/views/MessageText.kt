@@ -5,6 +5,8 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -23,11 +25,12 @@ fun MessageText(message: String, from: String, modifier: Modifier = Modifier) {
         modifier = modifier
             .fillMaxSize()
             .background(Color.Transparent)
+            .verticalScroll(rememberScrollState())
     ) {
         Text(
             text = message,
             fontFamily = FontFamily.Monospace,
-            fontSize = 80.sp,
+            fontSize = 96.sp,
             lineHeight = 116.sp,
             textAlign = TextAlign.Center
         )

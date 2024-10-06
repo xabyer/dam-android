@@ -15,9 +15,7 @@ import fdez.collados.fco.javier.simpleimagetextapp.R
 
 @Composable
 fun PartyImage(message: String, from: String, modifier: Modifier = Modifier) {
-    Box(
-
-    ) {
+    Box {
         Image(
             painter = painterResource(R.drawable.androidparty),
             contentDescription = "Colorful image from a Happy Birthday Card.",
