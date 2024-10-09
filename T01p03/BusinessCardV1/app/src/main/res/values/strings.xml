@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BusinessCard</string>
+    <string name="phone_icon">Phone Icon</string>
+    <string name="phone_number">666 69 69 69</string>
+    <string name="share_icon">Share Icon</string>
+    <string name="share_text">\@AndroidDev</string>
+    <string name="android_logo">Android Logo</string>
+    <string name="profile_name">F.J.F.C.</string>
+    <string name="profile_title">FullStack and Mobile Development</string>
+    <string name="email_icon">Email icon</string>
+    <string name="email">email@email.com</string>
+</resources>
