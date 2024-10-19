@@ -2,7 +2,7 @@
 
 This is a repository to upload my Android practices to the module (subject) PMDM (Programación Multimedia y Dispositivos Móviles) (Multimedia Programming and Mobile Devices) of 2nd of DAM (Desarrollo de Aplicaciones Multiplataforma) (Mutiplatform Application Development) of FP (Formación Profesional) (or Vocational Training). Studied at I.E.S. Ginés Pérez Chririnos in the 24/25 academic year.
 
-- Unit 1 - Your first Android App.
+- ## Unit 1 - Your first Android App.
     - Practice 1
         - Made from the [Android Codelab](https://developer.android.com/codelabs/basic-android-kotlin-compose-intro-kotlin-practice-problems), is a zip file with an .odf and its respective .pdf exported with all the solved exercises in Kotlin Playground.
     - Practice 2
@@ -19,3 +19,9 @@ This is a repository to upload my Android practices to the module (subject) PMDM
 
     - Pratice 3
         -V1 - Version 1 - First version made from the [Android Codelab](https://developer.android.com/codelabs/basic-android-kotlin-compose-business-card) Business Card. This version has only the GUI with Jetpack Compose as the practice required. I have certain **intent**ions for future versions.  😊
+
+
+- ## Unit 2 - Build App UI
+
+    - Practice 1
+        - Made from the [Android Codelab](https://developer.android.com/codelabs/basic-android-kotlin-compose-kotlin-fundamentals-practice-problems). This time I prefer to do it with IntelliJ, because the important thing is the code of the exercises. It is also a kotlin-centric practice, so it was easier to use IntelliJ than creating a whole project with Android Studio. This way I also save myself the time to making the pdf document using Kotlin Playground.
