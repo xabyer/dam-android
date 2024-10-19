@@ -2,6 +2,11 @@ package fdez.collados.fco.javier
 
 fun main() {
     // 2. Mobile notifications
+    /**
+     * Output:
+     * You have 51 notifications.
+     * Your phone is blowing up! You have 99+ notifications.
+     */
     val morningNotification = 51
     val eveningNotification = 135
 
@@ -13,6 +18,12 @@ fun main() {
 
 
     // 3. Movie-ticket price
+    /**
+     * Output:
+     * The movie ticket price for a person aged 5 is $15.
+     * The movie ticket price for a person aged 28 is $25.
+     * The movie ticket price for a person aged 87 is $20.
+     */
     printNumberExercise("Exercise 3: Movie-ticket price")
     val child = 5
     val adult = 28
@@ -72,6 +83,36 @@ fun main() {
     atiqah.showProfile()
     printSeparator()
 
+    // 7. Foldable phones
+    printNumberExercise("Exercise 7: Foldable phones")
+    val myFoldablePhone = FoldablePhone()
+
+    myFoldablePhone.switchOn()
+    myFoldablePhone.checkPhoneScreenLight()
+    myFoldablePhone.unfold()
+    myFoldablePhone.switchOn()
+    myFoldablePhone.checkPhoneScreenLight()
+    myFoldablePhone.fold()
+    myFoldablePhone.switchOff()
+    myFoldablePhone.checkPhoneScreenLight()
+
+    printSeparator()
+
+    // 8. Special auction
+    /**
+     * Output:
+     * Item A is sold at 5000.
+     * Item B is sold at 3000.
+     */
+    printNumberExercise("Exercise 8: Special auction")
+
+    val winningBid = Bid(5000, "Private Collector")
+
+    println("Item A is sold at ${auctionPrice(winningBid, 2000)}.")
+    println("Item B is sold at ${auctionPrice(null, 3000)}.")
+
+    printSeparator()
+
 
 
 }
@@ -122,4 +163,12 @@ fun printFinalTemperature(
 ) {
     val finalMeasurement = String.format("%.2f", conversionFormula(initialMeasurement)) // two decimal places
     println("$initialMeasurement degrees $initialUnit is $finalMeasurement degrees $finalUnit.")
+}
+
+
+// Special auction
+
+fun auctionPrice(bid: Bid?, minimumPrice: Int): Int {
+    // Fill in the code.
+    return bid?.amount ?: minimumPrice
 }
