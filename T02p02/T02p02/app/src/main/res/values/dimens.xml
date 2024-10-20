@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_border_radius">40dp</dimen>
+    <dimen name="btn_image_with">128dp</dimen>
+    <dimen name="btn_image_height">160dp</dimen>
+    <dimen name="spacer_vertical_padding">32dp</dimen>
+</resources>
