@@ -25,3 +25,6 @@ This is a repository to upload my Android practices to the module (subject) PMDM
 
     - Practice 1
         - Made from the [Android Codelab](https://developer.android.com/codelabs/basic-android-kotlin-compose-kotlin-fundamentals-practice-problems). This time I prefer to do it with IntelliJ, because the important thing is the code of the exercises. It is also a kotlin-centric practice, so it was easier to use IntelliJ than creating a whole project with Android Studio. This way I also save myself the time to making the pdf document using Kotlin Playground.
+
+    - Practice 2
+        - Made from the [Android Codelab](https://developer.android.com/codelabs/basic-android-kotlin-compose-button-click-practice-problem) lemonade practice. I've only chaged colors because I did not like the colors used in practice.
