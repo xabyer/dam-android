@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">T02p02</string>
+    <string name="lemonade">Limonada</string>
+    <string name="lemon_tree">Toca el limonero para seleccionar un limón</string>
+    <string name="lemon_tree_content_description">Limonero</string>
+    <string name="lemon_squeeze">Sigue pulsando el limón para exprimirlo</string>
+    <string name="lemon_squeeze_content_description">Exprimiendo un limón</string>
+    <string name="lemonade_drink">Pulsa en la limonada para beberla</string>
+    <string name="lemonade_drink_content_description">Un vaso de limonada para beber</string>
+    <string name="empty_glass">Pulsa en el vaso vacío para volver a empezar</string>
+    <string name="empty_glass_content_description">un vaso vacío para rellenar con limonada</string>
+</resources>
