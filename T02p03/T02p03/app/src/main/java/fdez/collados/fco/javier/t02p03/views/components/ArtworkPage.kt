@@ -17,6 +17,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
 import fdez.collados.fco.javier.t02p03.R
 
 @Composable
@@ -27,7 +29,8 @@ fun ArtWorkPage(
     artworkAuthorResource: Int,
     onBtnPrevClick: () -> Unit,
     onBtnNextClick: () -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    imageSize: Dp = 200.dp,
 ) {
 
     Box(
@@ -53,6 +56,7 @@ fun ArtWorkPage(
                 ArtworkWall(
                     artworkImageResource,
                     imageContentDescriptionResource,
+                    imageSize = imageSize
                 )
             }
             Spacer(modifier = Modifier.height(dimensionResource(R.dimen.thirty_two_dp)))
@@ -94,5 +98,6 @@ private fun ArtworkPagePreview() {
         artworkAuthorResource = R.string.guernica_author,
         onBtnPrevClick = {},
         onBtnNextClick = {},
+        imageSize = dimensionResource(R.dimen.medium_img_size)
     )
 }

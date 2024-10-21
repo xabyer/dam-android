@@ -10,6 +10,7 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import fdez.collados.fco.javier.t02p03.R
 
@@ -18,6 +19,7 @@ import fdez.collados.fco.javier.t02p03.R
 fun ArtworkWall(
     artworkImageResource: Int,
     imageContentDescriptionResource: Int,
+    imageSize: Dp,
     modifier: Modifier = Modifier
 ) {
 
@@ -27,7 +29,7 @@ fun ArtworkWall(
         contentScale = ContentScale.Inside,
         modifier = modifier
             .padding( dimensionResource(R.dimen.sixteen_dp))
-            .height(200.dp)
+            .height(imageSize)
     )
 
 }
@@ -37,6 +39,7 @@ fun ArtworkWall(
 private fun ArtworkWallPreview() {
     ArtworkWall(
         artworkImageResource = R.drawable.guernica,
-        imageContentDescriptionResource = R.string.guernica_content_description
+        imageContentDescriptionResource = R.string.guernica_content_description,
+        imageSize = 200.dp
     )
 }
