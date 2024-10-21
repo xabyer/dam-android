@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">T02p03</string>
+    <string name="previous">Anterior</string>
+    <string name="next">Siguiente</string>
+    <string name="guernica">Guernica</string>
+    <string name="guernica_author">Pablo Picasso (1937)</string>
+    <string name="guernica_content_description">Una imagen del cuadro de Guernica.</string>
+    <string name="aun_aprendo_content_description">Dibujo Aún Aprende de Francisco Goya</string>
+    <string name="aun_aprendo_title">Aún Aprendo</string>
+    <string name="aun_aprendo_author">Francisco Goya (1826)</string>
+    <string name="conde_orgaz_content_description">El entierro del conde Orgaz por El Greco</string>
+    <string name="entierro_conde_orgaz_title">El entierro del conde Orgaz</string>
+    <string name="entierro_conde_orgar_author">El Greco (1586)</string>
+    <string name="chiquita_content_description">La chiquita piconera por Julio Romero de Torres</string>
+    <string name="chiquita_piconera_title">La chiquita piconera</string>
+    <string name="chiquita_piconera_author">Julio Romero de Torres (1930)</string>
+    <string name="las_meninas_content_description">Las Meninas de Velázquez</string>
+    <string name="las_meninas_title">Las Meninas</string>
+    <string name="las_meninas_author">Diego Velázquez (1656)</string>
+    <string name="mujer_pajaro_content_description">Mujer, pájaro, estrella por Joan Miró</string>
+    <string name="mujer_pajaro_title">Mujer, pájaro, estrella</string>
+    <string name="mujer_pajaro_author">Joan Miró (1973)</string>
+    <string name="seashore_content_description">Paseo a orillas del mar de Joaquín Sorolla</string>
+    <string name="seashore_title">Paseo a orillas del mar</string>
+    <string name="seashore_author">Joaquín Sorolla (1909)</string>
+    <string name="wheat_surprise_content_description">La sorpresa del trigo por Maruja Mallo</string>
+    <string name="wheat_surprise_title">La sorpresa del trigo</string>
+    <string name="wheat_surprise_author">Maruja Mallo (1936)</string>
+    <string name="san_antinio_content_description">La tentación de San Antonio por Salvador Dalí</string>
+    <string name="san_antonio_title">La tentación de San Antonio  (Dalí)</string>
+    <string name="san_antinio_author">Salvador Dalí (1946)</string>
+    <string name="grapes_melon_content_description">Niños comiendo uvas y melón por Murillo</string>
+    <string name="grapes_melon_title">Niños comiendo uvas y melón</string>
+    <string name="grapes_melon_author">Bartolomé Esteban Murillo (1650)</string>
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">T02p03</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="guernica">Guernica</string>
+    <string name="guernica_author">Pablo Picasso (1937)</string>
+    <string name="guernica_content_description">An image of the painting of Guernica.</string>
+    <string name="aun_aprendo_content_description">Painting I Am Still Learning by Francisco Goya</string>
+    <string name="aun_aprendo_title">I Am Still Learning</string>
+    <string name="aun_aprendo_author">Francisco Goya (1826)</string>
+    <string name="conde_orgaz_content_description">The Burial of the Count of Orgaz by the painter El Greco</string>
+    <string name="entierro_conde_orgaz_title">The Burial of the Count of Orgaz</string>
+    <string name="entierro_conde_orgar_author">El Greco (1586)</string>
+    <string name="chiquita_content_description">La chiquita piconera by Julio Romero de Torres</string>
+    <string name="chiquita_piconera_title">La chiquita piconera</string>
+    <string name="chiquita_piconera_author">Julio Romero de Torres (1930)</string>
+    <string name="las_meninas_content_description">Las Meninas of Velázquez</string>
+    <string name="las_meninas_title">Las Meninas</string>
+    <string name="las_meninas_author">Diego Velázquez (1656)</string>
+    <string name="mujer_pajaro_content_description">Woman, bird, star by Joan Miró</string>
+    <string name="mujer_pajaro_title">Woman, Bird, Star</string>
+    <string name="mujer_pajaro_author">Joan Miró (1973)</string>
+    <string name="seashore_content_description">Walk along the seashore by Joaquín Sorolla</string>
+    <string name="seashore_title">Walk along the seashore</string>
+    <string name="seashore_author">Joaquín Sorolla (1909)</string>
+    <string name="wheat_surprise_content_description">The Wheat Surprise by Maruja Mallo</string>
+    <string name="wheat_surprise_title">The Wheat Surprise</string>
+    <string name="wheat_surprise_author">Maruja Mallo (1936)</string>
+    <string name="san_antinio_content_description">The temptation of San Antonio by Salvador Dalí</string>
+    <string name="san_antonio_title">The temptation of San Antonio (Dalí)</string>
+    <string name="san_antinio_author">Salvador Dalí (1946)</string>
+    <string name="grapes_melon_content_description">Children eating grapes and melon by Murillo</string>
+    <string name="grapes_melon_title">Children eating grapes and melon</string>
+    <string name="grapes_melon_author">Bartolomé Esteban Murillo (1650)</string>
+</resources>
